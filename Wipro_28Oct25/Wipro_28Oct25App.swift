@@ -12,6 +12,7 @@ struct Wipro_28Oct25App: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .preferredColorScheme(.dark)
         }
     }
 }
